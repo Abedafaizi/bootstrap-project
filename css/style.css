@@ -1,0 +1,38 @@
+.navbar.fixed-top {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    z-index: 1030 !important;
+}
+
+/* Single blogs */
+.sp1 {
+    color: #b2744c;
+  }
+  
+  .form-control {
+    width: 230px;
+    margin-left: 190px;
+  }
+  form {
+    position: relative;
+    top: 12px;
+  }
+  li {
+    text-decoration: none;
+  }
+  #contact-btn {
+    width: 200px;
+    height: 36px;
+    border: none;
+    background: rgb(81, 107, 107);
+    color: white;
+    font-weight: bold;
+  
+    cursor: pointer;
+    transition: all 0.6s;
+    border-radius: 10px;
+  }
+  #contact-btn:hover {
+    transform: translateY(20%);
+  }
